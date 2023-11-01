@@ -1,0 +1,88 @@
+{
+  "logics": [
+    {
+      "NAME": "QF_ABVFP",
+      "TIMEOUT": 60,
+      "TESTS": [
+        {
+          "name": "query0.smt2",
+          "succeeded": false,
+          "correctness_error": true,
+          "elapsed_time": 30,
+          "solver_queries_number": 2,
+          "average_time_for_query": 6
+        },
+        {
+          "name": "query1.smt2",
+          "succeeded": false,
+          "correctness_error": false,
+          "elapsed_time": 30,
+          "solver_queries_number": 2,
+          "average_time_for_query": 6
+        },
+        {
+          "name": "query2.smt2",
+          "succeeded": true,
+          "correctness_error": false,
+          "elapsed_time": 20,
+          "solver_queries_number": 3,
+          "average_time_for_query": 6
+        },
+        {
+          "name": "query3.smt2",
+          "succeeded": true,
+          "correctness_error": false,
+          "elapsed_time": 25,
+          "solver_queries_number": 12,
+          "average_time_for_query": 1
+        },
+        {
+          "name": "query4.smt2",
+          "succeeded": true,
+          "correctness_error": false,
+          "elapsed_time": 26,
+          "solver_queries_number": 5,
+          "average_time_for_query": 4
+        }
+      ]
+    },
+    {
+      "NAME": "QF_ALIA",
+      "TIMEOUT": 60,
+      "TESTS": [
+        {
+          "name": "q1.smt2",
+          "succeeded": false,
+          "correctness_error": false,
+          "elapsed_time": 39,
+          "solver_queries_number": 2,
+          "average_time_for_query": 9
+        },
+        {
+          "name": "q2.smt2",
+          "succeeded": true,
+          "correctness_error": false,
+          "elapsed_time": 35,
+          "solver_queries_number": 5,
+          "average_time_for_query": 6
+        },
+        {
+          "name": "q3.smt2",
+          "succeeded": true,
+          "correctness_error": false,
+          "elapsed_time": 45,
+          "solver_queries_number": 12,
+          "average_time_for_query": 1
+        },
+        {
+          "name": "q4.smt2",
+          "succeeded": true,
+          "correctness_error": false,
+          "elapsed_time": 54,
+          "solver_queries_number": 5,
+          "average_time_for_query": 8
+        }
+      ]
+    }
+  ]
+}
