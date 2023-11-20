@@ -6,7 +6,7 @@
       "TESTS": [
         {
           "name": "query0.smt2",
-          "succeeded": false,
+          "passed": false,
           "correctness_error": true,
           "elapsed_time": 30,
           "solver_queries_number": 2,
@@ -14,7 +14,7 @@
         },
         {
           "name": "query1.smt2",
-          "succeeded": false,
+          "passed": false,
           "correctness_error": false,
           "elapsed_time": 30,
           "solver_queries_number": 2,
@@ -22,7 +22,7 @@
         },
         {
           "name": "query2.smt2",
-          "succeeded": true,
+          "passed": true,
           "correctness_error": false,
           "elapsed_time": 20,
           "solver_queries_number": 3,
@@ -30,7 +30,7 @@
         },
         {
           "name": "query3.smt2",
-          "succeeded": true,
+          "passed": true,
           "correctness_error": false,
           "elapsed_time": 25,
           "solver_queries_number": 12,
@@ -38,7 +38,7 @@
         },
         {
           "name": "query4.smt2",
-          "succeeded": true,
+          "passed": true,
           "correctness_error": false,
           "elapsed_time": 26,
           "solver_queries_number": 5,
@@ -52,7 +52,7 @@
       "TESTS": [
         {
           "name": "q1.smt2",
-          "succeeded": false,
+          "passed": false,
           "correctness_error": false,
           "elapsed_time": 39,
           "solver_queries_number": 2,
@@ -60,7 +60,7 @@
         },
         {
           "name": "q2.smt2",
-          "succeeded": true,
+          "passed": true,
           "correctness_error": false,
           "elapsed_time": 35,
           "solver_queries_number": 5,
@@ -68,7 +68,7 @@
         },
         {
           "name": "q3.smt2",
-          "succeeded": true,
+          "passed": true,
           "correctness_error": false,
           "elapsed_time": 45,
           "solver_queries_number": 12,
@@ -76,7 +76,7 @@
         },
         {
           "name": "q4.smt2",
-          "succeeded": true,
+          "passed": true,
           "correctness_error": false,
           "elapsed_time": 54,
           "solver_queries_number": 5,

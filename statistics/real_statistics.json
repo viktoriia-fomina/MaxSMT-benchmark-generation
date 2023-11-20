@@ -1,0 +1,2560 @@
+{
+  "logics": [
+  {
+    "NAME": "QF-ABVFP",
+    "TESTS": [
+    {
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 23,
+        "elapsedTimeMs": 60,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.003.smt2",
+      "maxSMTCallElapsedTimeMs": 61,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.004.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 5,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.006.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.009.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.011.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 5,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.013.smt2",
+      "maxSMTCallElapsedTimeMs": 6,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.014.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 2,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.021.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 4,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.022.smt2",
+      "maxSMTCallElapsedTimeMs": 7,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.023.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.026.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 9,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.027.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 4,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.030.smt2",
+      "maxSMTCallElapsedTimeMs": 7,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.032.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 6,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.033.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 6,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.034.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.035.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.036.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 6,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.037.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 4,
+        "elapsedTimeMs": 6,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.038.smt2",
+      "maxSMTCallElapsedTimeMs": 7,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.040.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 8,
+        "elapsedTimeMs": 10,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.041.smt2",
+      "maxSMTCallElapsedTimeMs": 10,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 9,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.042.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 5,
+        "timeInSolverQueriesMs": 33,
+        "elapsedTimeMs": 42,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.043.smt2",
+      "maxSMTCallElapsedTimeMs": 42,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 5,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.046.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.048.smt2",
+      "maxSMTCallElapsedTimeMs": 7,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 4,
+        "elapsedTimeMs": 5,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.049.smt2",
+      "maxSMTCallElapsedTimeMs": 6,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 4,
+        "elapsedTimeMs": 5,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.051.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.054.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.055.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.056.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.058.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.060.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 4,
+        "elapsedTimeMs": 5,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.061.smt2",
+      "maxSMTCallElapsedTimeMs": 6,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 5,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.062.smt2",
+      "maxSMTCallElapsedTimeMs": 6,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.063.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 4,
+        "elapsedTimeMs": 5,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.066.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 5,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.068.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.069.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.070.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.071.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.072.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 40,
+        "elapsedTimeMs": 45,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.074.smt2",
+      "maxSMTCallElapsedTimeMs": 46,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 42,
+        "elapsedTimeMs": 47,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.075.smt2",
+      "maxSMTCallElapsedTimeMs": 48,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 39,
+        "elapsedTimeMs": 45,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.078.smt2",
+      "maxSMTCallElapsedTimeMs": 46,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 89,
+        "elapsedTimeMs": 91,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.080.smt2",
+      "maxSMTCallElapsedTimeMs": 91,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.081.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 2,
+        "elapsedTimeMs": 3,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.082.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 44,
+        "elapsedTimeMs": 48,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.083.smt2",
+      "maxSMTCallElapsedTimeMs": 47,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 42,
+        "elapsedTimeMs": 46,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.084.smt2",
+      "maxSMTCallElapsedTimeMs": 47,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 3,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.085.smt2",
+      "maxSMTCallElapsedTimeMs": 3,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 7,
+        "elapsedTimeMs": 9,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.087.smt2",
+      "maxSMTCallElapsedTimeMs": 10,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 6,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.088.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 12,
+        "elapsedTimeMs": 14,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.089.smt2",
+      "maxSMTCallElapsedTimeMs": 15,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 7,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.090.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 5,
+        "timeInSolverQueriesMs": 67,
+        "elapsedTimeMs": 72,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.091.smt2",
+      "maxSMTCallElapsedTimeMs": 72,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 70,
+        "elapsedTimeMs": 73,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.092.smt2",
+      "maxSMTCallElapsedTimeMs": 75,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 7,
+        "elapsedTimeMs": 9,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.093.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 6,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.094.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 5,
+        "timeInSolverQueriesMs": 58,
+        "elapsedTimeMs": 64,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.095.smt2",
+      "maxSMTCallElapsedTimeMs": 65,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 6,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.097.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 8,
+        "elapsedTimeMs": 9,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.100.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 7,
+        "elapsedTimeMs": 9,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.101.smt2",
+      "maxSMTCallElapsedTimeMs": 10,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 7,
+        "elapsedTimeMs": 9,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.102.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 7,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.104.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.105.smt2",
+      "maxSMTCallElapsedTimeMs": 7,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 5,
+        "timeInSolverQueriesMs": 82,
+        "elapsedTimeMs": 87,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.107.smt2",
+      "maxSMTCallElapsedTimeMs": 87,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 6,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.109.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 7,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.110.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 6,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.111.smt2",
+      "maxSMTCallElapsedTimeMs": 7,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 6,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.112.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 48,
+        "elapsedTimeMs": 51,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.114.smt2",
+      "maxSMTCallElapsedTimeMs": 52,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 128,
+        "elapsedTimeMs": 134,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.115.smt2",
+      "maxSMTCallElapsedTimeMs": 134,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 9,
+        "elapsedTimeMs": 10,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.117.smt2",
+      "maxSMTCallElapsedTimeMs": 11,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 8,
+        "timeInSolverQueriesMs": 63,
+        "elapsedTimeMs": 71,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.118.smt2",
+      "maxSMTCallElapsedTimeMs": 72,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 62,
+        "elapsedTimeMs": 65,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.120.smt2",
+      "maxSMTCallElapsedTimeMs": 65,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 12,
+        "elapsedTimeMs": 13,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.123.smt2",
+      "maxSMTCallElapsedTimeMs": 14,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 12,
+        "elapsedTimeMs": 14,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.126.smt2",
+      "maxSMTCallElapsedTimeMs": 14,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 13,
+        "elapsedTimeMs": 14,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.130.smt2",
+      "maxSMTCallElapsedTimeMs": 15,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 9,
+        "elapsedTimeMs": 10,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.134.smt2",
+      "maxSMTCallElapsedTimeMs": 10,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 82,
+        "elapsedTimeMs": 84,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.138.smt2",
+      "maxSMTCallElapsedTimeMs": 86,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 10,
+        "elapsedTimeMs": 11,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.139.smt2",
+      "maxSMTCallElapsedTimeMs": 12,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 13,
+        "elapsedTimeMs": 15,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.140.smt2",
+      "maxSMTCallElapsedTimeMs": 15,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 9,
+        "elapsedTimeMs": 10,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.141.smt2",
+      "maxSMTCallElapsedTimeMs": 10,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 10,
+        "elapsedTimeMs": 11,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.143.smt2",
+      "maxSMTCallElapsedTimeMs": 12,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 9,
+        "elapsedTimeMs": 9,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.144.smt2",
+      "maxSMTCallElapsedTimeMs": 10,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 74,
+        "elapsedTimeMs": 76,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_gmp_gmp_klee_precision.x86_64\\query.147.smt2",
+      "maxSMTCallElapsedTimeMs": 76,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_numerical_recipes_gaussj.x86_64\\query.03.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 5,
+        "timeInSolverQueriesMs": 19,
+        "elapsedTimeMs": 22,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_numerical_recipes_gaussj.x86_64\\query.04.smt2",
+      "maxSMTCallElapsedTimeMs": 22,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 41,
+        "elapsedTimeMs": 42,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_numerical_recipes_gaussj.x86_64\\query.05.smt2",
+      "maxSMTCallElapsedTimeMs": 43,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 6,
+        "timeInSolverQueriesMs": 16,
+        "elapsedTimeMs": 19,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_numerical_recipes_gaussj.x86_64\\query.11.smt2",
+      "maxSMTCallElapsedTimeMs": 19,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 16,
+        "elapsedTimeMs": 17,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_numerical_recipes_gaussj.x86_64\\query.14.smt2",
+      "maxSMTCallElapsedTimeMs": 17,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 36,
+        "elapsedTimeMs": 37,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_numerical_recipes_gaussj.x86_64\\query.16.smt2",
+      "maxSMTCallElapsedTimeMs": 38,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 113,
+        "elapsedTimeMs": 115,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_numerical_recipes_gaussj.x86_64\\query.17.smt2",
+      "maxSMTCallElapsedTimeMs": 116,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 38,
+        "elapsedTimeMs": 40,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_numerical_recipes_gaussj.x86_64\\query.18.smt2",
+      "maxSMTCallElapsedTimeMs": 42,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 6,
+        "timeInSolverQueriesMs": 66,
+        "elapsedTimeMs": 68,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_numerical_recipes_gaussj.x86_64\\query.23.smt2",
+      "maxSMTCallElapsedTimeMs": 69,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 5,
+        "timeInSolverQueriesMs": 112,
+        "elapsedTimeMs": 115,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_real_numerical_recipes_gaussj.x86_64\\query.24.smt2",
+      "maxSMTCallElapsedTimeMs": 115,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 2,
+        "elapsedTimeMs": 3,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.01.smt2",
+      "maxSMTCallElapsedTimeMs": 3,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 2,
+        "elapsedTimeMs": 6,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.03.smt2",
+      "maxSMTCallElapsedTimeMs": 7,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 9,
+        "elapsedTimeMs": 11,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.05.smt2",
+      "maxSMTCallElapsedTimeMs": 12,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 7,
+        "elapsedTimeMs": 8,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.07.smt2",
+      "maxSMTCallElapsedTimeMs": 9,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 8,
+        "elapsedTimeMs": 9,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.10.smt2",
+      "maxSMTCallElapsedTimeMs": 10,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 18,
+        "elapsedTimeMs": 19,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.11.smt2",
+      "maxSMTCallElapsedTimeMs": 19,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 14,
+        "elapsedTimeMs": 15,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.12.smt2",
+      "maxSMTCallElapsedTimeMs": 15,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 12,
+        "elapsedTimeMs": 13,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.13.smt2",
+      "maxSMTCallElapsedTimeMs": 14,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 53,
+        "elapsedTimeMs": 54,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.18.smt2",
+      "maxSMTCallElapsedTimeMs": 55,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 70,
+        "elapsedTimeMs": 72,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.19.smt2",
+      "maxSMTCallElapsedTimeMs": 72,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 89,
+        "elapsedTimeMs": 90,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.20.smt2",
+      "maxSMTCallElapsedTimeMs": 91,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 58,
+        "elapsedTimeMs": 59,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.21.smt2",
+      "maxSMTCallElapsedTimeMs": 60,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 71,
+        "elapsedTimeMs": 71,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.23.smt2",
+      "maxSMTCallElapsedTimeMs": 72,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 93,
+        "elapsedTimeMs": 94,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.24.smt2",
+      "maxSMTCallElapsedTimeMs": 95,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 92,
+        "elapsedTimeMs": 93,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.25.smt2",
+      "maxSMTCallElapsedTimeMs": 93,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 81,
+        "elapsedTimeMs": 82,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.27.smt2",
+      "maxSMTCallElapsedTimeMs": 82,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 123,
+        "elapsedTimeMs": 125,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.28.smt2",
+      "maxSMTCallElapsedTimeMs": 126,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 65,
+        "elapsedTimeMs": 66,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.29.smt2",
+      "maxSMTCallElapsedTimeMs": 67,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 122,
+        "elapsedTimeMs": 124,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.30.smt2",
+      "maxSMTCallElapsedTimeMs": 125,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 156,
+        "elapsedTimeMs": 157,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.31.smt2",
+      "maxSMTCallElapsedTimeMs": 157,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 142,
+        "elapsedTimeMs": 143,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.32.smt2",
+      "maxSMTCallElapsedTimeMs": 144,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 135,
+        "elapsedTimeMs": 137,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_double.x86_64\\query.33.smt2",
+      "maxSMTCallElapsedTimeMs": 136,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 2,
+        "elapsedTimeMs": 3,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.01.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 3,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.02.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.03.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.04.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 9,
+        "elapsedTimeMs": 11,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.05.smt2",
+      "maxSMTCallElapsedTimeMs": 11,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 3,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.06.smt2",
+      "maxSMTCallElapsedTimeMs": 4,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 9,
+        "elapsedTimeMs": 10,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.08.smt2",
+      "maxSMTCallElapsedTimeMs": 11,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 10,
+        "elapsedTimeMs": 11,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.10.smt2",
+      "maxSMTCallElapsedTimeMs": 11,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 19,
+        "elapsedTimeMs": 21,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.13.smt2",
+      "maxSMTCallElapsedTimeMs": 21,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 17,
+        "elapsedTimeMs": 18,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.14.smt2",
+      "maxSMTCallElapsedTimeMs": 18,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 16,
+        "elapsedTimeMs": 17,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.15.smt2",
+      "maxSMTCallElapsedTimeMs": 18,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 22,
+        "elapsedTimeMs": 23,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_inf_longdouble.x86_64\\query.16.smt2",
+      "maxSMTCallElapsedTimeMs": 23,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_double.x86_64\\query.03.smt2",
+      "maxSMTCallElapsedTimeMs": 8,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 6,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_double.x86_64\\query.04.smt2",
+      "maxSMTCallElapsedTimeMs": 7,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 14,
+        "elapsedTimeMs": 16,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_double.x86_64\\query.05.smt2",
+      "maxSMTCallElapsedTimeMs": 17,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 108,
+        "elapsedTimeMs": 110,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_double.x86_64\\query.07.smt2",
+      "maxSMTCallElapsedTimeMs": 110,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 5,
+        "elapsedTimeMs": 6,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_double.x86_64\\query.08.smt2",
+      "maxSMTCallElapsedTimeMs": 7,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 12,
+        "elapsedTimeMs": 13,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_float.x86_64\\query.03.smt2",
+      "maxSMTCallElapsedTimeMs": 13,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 9,
+        "elapsedTimeMs": 11,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_float.x86_64\\query.04.smt2",
+      "maxSMTCallElapsedTimeMs": 11,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 12,
+        "elapsedTimeMs": 14,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_float.x86_64\\query.05.smt2",
+      "maxSMTCallElapsedTimeMs": 15,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 6,
+        "timeInSolverQueriesMs": 21,
+        "elapsedTimeMs": 24,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_float.x86_64\\query.07.smt2",
+      "maxSMTCallElapsedTimeMs": 24,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 22,
+        "elapsedTimeMs": 23,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_float.x86_64\\query.08.smt2",
+      "maxSMTCallElapsedTimeMs": 24,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 6,
+        "timeInSolverQueriesMs": 20,
+        "elapsedTimeMs": 23,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\aachen_syn_mod_float.x86_64\\query.09.smt2",
+      "maxSMTCallElapsedTimeMs": 23,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 15,
+        "elapsedTimeMs": 19,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\imperial_gsl_benchmarks_histogram2d_klee_bug.x86_64\\query.006.smt2",
+      "maxSMTCallElapsedTimeMs": 20,
+      "passed": false,
+      "checkedSoftConstraintsSumIsWrong": true
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 4,
+        "elapsedTimeMs": 4,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\imperial_svcomp_float-benchs_svcomp_interpolation2.x86_64\\query.10.smt2",
+      "maxSMTCallElapsedTimeMs": 5,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 8,
+        "elapsedTimeMs": 9,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\imperial_svcomp_float-benchs_svcomp_interpolation2.x86_64\\query.15.smt2",
+      "maxSMTCallElapsedTimeMs": 10,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 1,
+        "elapsedTimeMs": 1,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\imperial_synthetic_interval_klee_bug_symbolic_increment.x86_64\\query.09.smt2",
+      "maxSMTCallElapsedTimeMs": 2,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 3,
+        "timeInSolverQueriesMs": 9,
+        "elapsedTimeMs": 10,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\imperial_synthetic_interval_klee_bug_symbolic_increment.x86_64\\query.10.smt2",
+      "maxSMTCallElapsedTimeMs": 10,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 6,
+        "elapsedTimeMs": 7,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\imperial_synthetic_interval_klee_bug_symbolic_increment.x86_64\\query.11.smt2",
+      "maxSMTCallElapsedTimeMs": 7,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 21,
+        "elapsedTimeMs": 23,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\imperial_synthetic_interval_klee_bug_symbolic_increment.x86_64\\query.15.smt2",
+      "maxSMTCallElapsedTimeMs": 23,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    },{
+      "maxSMTCallStatistics": {
+        "timeoutMs": 60000,
+        "queriesToSolverNumber": 4,
+        "timeInSolverQueriesMs": 17,
+        "elapsedTimeMs": 18,
+        "maxSmtCtx": {
+          "strategy": "PrimalMaxRes",
+          "preferLargeWeightConstraintsForCores": false,
+          "minimizeCores": false,
+          "getMultipleCores": false
+        }
+      },
+      "name": "QF_ABVFP-light\\QF_ABVFP-light\\20170428-Liew-KLEE\\imperial_synthetic_interval_klee_bug_symbolic_increment.x86_64\\query.16.smt2",
+      "maxSMTCallElapsedTimeMs": 19,
+      "passed": true,
+      "checkedSoftConstraintsSumIsWrong": false
+    }
+    ]
+    }
+  ]
+}
