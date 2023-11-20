@@ -1,4 +1,3 @@
-import re
 from os import path, error, walk, makedirs
 from pathlib import Path
 from sys import argv
