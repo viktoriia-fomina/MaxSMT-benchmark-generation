@@ -6,10 +6,10 @@ from sys import argv
 
 
 def main(args):
-    analyze_maxsmt_statistics(Path(args[1]))
+    analyze_maxsmt_statistics(Path(args[1]), Path(args[2]))
 
 
-def analyze_maxsmt_statistics(stat_file):
+def analyze_maxsmt_statistics(stat_file, dir_to_collect_stat_to):
     if not stat_file.exists() or not stat_file.is_file():
         print(f'File [{stat_file}] does not exist')
         exit(1)
@@ -28,7 +28,11 @@ def analyze_maxsmt_statistics(stat_file):
 
     for i in range(0, theories_size):
         logic_stat = create_logic_statistics((stat["logics"])[i])
-        print(json.dumps(logic_stat, default=obj_dict))
+        logic_stat_str = json.dumps(logic_stat, default=obj_dict, indent=2, separators=(',', ': '))
+        print(logic_stat_str)
+        with open(dir_to_collect_stat_to / f'{logic_stat.name}_statistics.json', 'a') as f:
+            f.write(logic_stat_str)
+        # process error
 
 
 def obj_dict(obj):

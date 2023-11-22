@@ -1,0 +1,26 @@
+{
+  "name": "QF-ABVFP",
+  "timeout_ms": 60000,
+  "max_smt_ctx": {
+    "strategy": "PrimalMaxRes",
+    "preferLargeWeightConstraintsForCores": false,
+    "minimizeCores": false,
+    "getMultipleCores": false
+  },
+  "tests_size_stat": {
+    "tests_size": 150,
+    "passed_tests_percent": 99.33333333333333,
+    "failed_tests_size": 1,
+    "failed_tests_wrong_soft_constr_sum_size": 1
+  },
+  "tests_queries_to_solver_stat": {
+    "avg_queries_to_solver_number": 3.32,
+    "avg_time_per_solver_queries_percent": 82.81730589810034,
+    "avg_failed_test_queries_to_solver_number": 0.02
+  },
+  "tests_elapsed_time_stat": {
+    "avg_elapsed_time_ms": 27.333333333333332,
+    "avg_elapsed_passed_tests_time_ms": 27.206666666666667,
+    "avg_elapsed_failed_tests_time_ms": 0.12666666666666668
+  }
+}
