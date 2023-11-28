@@ -132,6 +132,7 @@ def primary_convert_inc_tests_to_maxsmt(dir_from, dir_to):
                                             declare_fun_state.set_met_before(True)
                                 elif "(define-fun" in line:
                                     defined_fun_name = get_defined_fun_name(line)
+
                                     if defined_fun_name not in defined_functions_names:
                                         defined_functions_names.append(defined_fun_name)
                                         f2.write(line)
@@ -182,8 +183,13 @@ def get_declared_fun_name(line):
 
 
 def get_defined_fun_name(line):
-    split_line = line.split(" ")
-    return split_line[1]
+    new_line = line.replace("(define-fun ", "").strip()
+
+    if new_line[0] == '|':
+        split_line = new_line.split('|')
+        return split_line[1]
+    else:
+        return new_line.split(' ')[0]
 
 
 class MaxSMTState:
