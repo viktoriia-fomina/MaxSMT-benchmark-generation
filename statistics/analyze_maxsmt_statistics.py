@@ -139,9 +139,10 @@ class TestsElapsedTimeStatistics:
 
 
 class LogicTestsStatistics:
-    def __init__(self, name, timeout_ms, max_smt_ctx, tests_size_stat: TestsSizeStatistics,
+    def __init__(self, smt_solver, name, timeout_ms, max_smt_ctx, tests_size_stat: TestsSizeStatistics,
                  tests_queries_to_solver_stat: TestsQueriesToSolverStatistics,
                  tests_elapsed_time_stat: TestsElapsedTimeStatistics):
+        self.smt_solver = smt_solver
         self.name = name
         self.timeout_ms = timeout_ms
         self.max_smt_ctx = max_smt_ctx
@@ -154,7 +155,7 @@ def create_logic_statistics(logic):
     tests = logic["TESTS"]
     first_test = tests[0]
     first_test_max_smt_stat = first_test["maxSMTCallStatistics"]
-    return LogicTestsStatistics(logic["NAME"], first_test_max_smt_stat["timeoutMs"],
+    return LogicTestsStatistics(first_test_max_smt_stat["smtSolver"], logic["NAME"], first_test_max_smt_stat["timeoutMs"],
                                 first_test_max_smt_stat["maxSmtCtx"], create_tests_size_statistics(tests),
                                 create_tests_queries_to_solver_statistics(tests),
                                 create_tests_elapsed_time_statistics(tests))
