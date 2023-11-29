@@ -114,6 +114,7 @@ def primary_convert_inc_tests_to_maxsmt(dir_from, dir_to):
                                 # Case when processing new declare fun beginning
                                 elif "(declare-fun" in line:
                                     declared_fun_name = get_declared_fun_name(line)
+
                                     met_name = declared_fun_name is not None
                                     met_name_before = declared_fun_name in declared_functions_names
 
@@ -169,14 +170,21 @@ def primary_convert_inc_tests_to_maxsmt(dir_from, dir_to):
 
 
 def get_declared_fun_name(line):
+    # Function beginning, first elements as the string starts from '(' character
+    new_line = line.split("(")[1]
+
+    # For cases like: (declare-fun |*(struct_gsmi_buf)*@2| () ())
+    if new_line.count("|") % 2 != 0:
+        new_line = line.split(" ")[1]
+
     declared_fun_name = None
 
-    if line.count("|") > 1:
-        split_line = line.split("|")
+    if new_line.count("|") > 1:
+        split_line = new_line.split("|")
         declared_fun_name = split_line[1]
     # Exclude case when there is no name on the current line
-    elif not line[len("(declare-fun"):].isspace():
-        split_line = line.split(" ")
+    elif not new_line[len("(declare-fun"):].isspace():
+        split_line = new_line.split(" ")
         declared_fun_name = split_line[1]
 
     return declared_fun_name
