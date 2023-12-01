@@ -20,6 +20,9 @@ def analyze_maxsmt_statistics(stat_file, analyzed_stat_file_to_save):
     logics_size = len(stat["logics"])
     logics_statistics = []
 
+    def obj_dict(obj):
+        return obj.__dict__
+
     for i in range(0, logics_size):
         logic_stat = create_logic_statistics((stat["logics"])[i])
         logics_statistics.append(logic_stat)
@@ -29,10 +32,6 @@ def analyze_maxsmt_statistics(stat_file, analyzed_stat_file_to_save):
     with open(analyzed_stat_file_to_save, "a") as f:
         logics_stat_str = json.dumps(logics_statistics, default=obj_dict, indent=2, separators=(',', ': '))
         f.write(logics_stat_str)
-
-
-def obj_dict(obj):
-    return obj.__dict__
 
 
 def create_tests_size_statistics(tests):
