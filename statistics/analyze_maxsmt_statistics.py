@@ -9,7 +9,7 @@ def main(args):
     analyze_maxsmt_statistics(Path(args[1]), Path(args[2]))
 
 
-def analyze_maxsmt_statistics(stat_file, dir_to_collect_stat_to):
+def analyze_maxsmt_statistics(stat_file, analyzed_stat_file_to_save):
     if not stat_file.exists() or not stat_file.is_file():
         raise FileExistsError(f"File with statistics [{str(stat_file)}] does not exist")
 
@@ -18,13 +18,17 @@ def analyze_maxsmt_statistics(stat_file, dir_to_collect_stat_to):
 
     stat = json.loads(data)
     logics_size = len(stat["logics"])
+    logics_statistics = []
 
     for i in range(0, logics_size):
         logic_stat = create_logic_statistics((stat["logics"])[i])
+        logics_statistics.append(logic_stat)
         logic_stat_str = json.dumps(logic_stat, default=obj_dict, indent=2, separators=(',', ': '))
-        print(logic_stat_str)
-        with open(dir_to_collect_stat_to / f"{logic_stat.name}_statistics.json", "a") as f:
-            f.write(logic_stat_str)
+        print(logic_stat_str + "\n")
+
+    with open(analyzed_stat_file_to_save, "a") as f:
+        logics_stat_str = json.dumps(logics_statistics, default=obj_dict, indent=2, separators=(',', ': '))
+        f.write(logics_stat_str)
 
 
 def obj_dict(obj):
