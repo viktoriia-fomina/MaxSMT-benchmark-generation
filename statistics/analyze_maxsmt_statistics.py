@@ -119,17 +119,11 @@ def create_tests_queries_to_solver_statistics(tests):
             tests_executed_maxsmt_failed),
                                                                 0) / tests_executed_maxsmt_failed_size
 
-    failed_tests = list(filter(lambda x: not x["passed"], tests_executed_maxsmt))
-    avg_failed_test_queries_to_solver_number = 0 if tests_executed_maxsmt_size == 0 else reduce(
-        lambda x, y: queries_to_solver_number(x) + queries_to_solver_number(y), failed_tests,
-        0) / tests_executed_maxsmt_size
-
     return TestsQueriesToSolverStatistics(avg_queries_to_solver_number, avg_queries_to_solver_passed_tests_number,
                                           avg_queries_to_solver_failed_tests_number,
                                           avg_time_per_solver_queries_percent,
                                           avg_time_per_solver_queries_passed_tests_percent,
-                                          avg_time_per_solver_queries_failed_tests_percent,
-                                          avg_failed_test_queries_to_solver_number)
+                                          avg_time_per_solver_queries_failed_tests_percent)
 
 
 def create_tests_elapsed_time_statistics(tests):
@@ -192,15 +186,13 @@ class TestsSizeStatistics:
 class TestsQueriesToSolverStatistics:
     def __init__(self, avg_queries_to_solver_number, avg_queries_to_solver_passed_tests_number,
                  avg_queries_to_solver_failed_tests_number, avg_time_per_solver_queries_percent,
-                 avg_time_per_solver_queries_passed_tests_percent, avg_time_per_solver_queries_failed_tests_percent,
-                 avg_failed_test_queries_to_solver_number):
+                 avg_time_per_solver_queries_passed_tests_percent, avg_time_per_solver_queries_failed_tests_percent):
         self.avg_queries_to_solver_number = avg_queries_to_solver_number
         self.avg_queries_to_solver_passed_tests_number = avg_queries_to_solver_passed_tests_number
         self.avg_queries_to_solver_failed_tests_number = avg_queries_to_solver_failed_tests_number
         self.avg_time_per_solver_queries_percent = avg_time_per_solver_queries_percent
         self.avg_time_per_solver_queries_passed_tests_percent = avg_time_per_solver_queries_passed_tests_percent
         self.avg_time_per_solver_queries_failed_tests_percent = avg_time_per_solver_queries_failed_tests_percent
-        self.avg_failed_test_queries_to_solver_number = avg_failed_test_queries_to_solver_number
 
 
 class TestsElapsedTimeStatistics:
