@@ -81,33 +81,43 @@ def create_tests_queries_to_solver_statistics(tests):
     tests_executed_maxsmt_size = len(tests_executed_maxsmt)
 
     tests_executed_maxsmt_passed = list(filter(lambda x: x["passed"], tests_executed_maxsmt))
-    tests_executed_maxsmt_passed_tests_size = len(tests_executed_maxsmt_passed)
+    tests_executed_maxsmt_passed_size = len(tests_executed_maxsmt_passed)
 
     tests_executed_maxsmt_failed = list(filter(lambda x: not x["passed"], tests_executed_maxsmt))
-    tests_executed_maxsmt_failed_tests_size = len(tests_executed_maxsmt_failed)
+    tests_executed_maxsmt_failed_size = len(tests_executed_maxsmt_failed)
 
     avg_queries_to_solver_number = 0 if tests_executed_maxsmt_size == 0 else reduce(
         lambda x, y: queries_to_solver_number(x) + queries_to_solver_number(y),
         tests_executed_maxsmt, 0) / tests_executed_maxsmt_size
 
-    avg_queries_to_solver_passed_tests_number = 0 if tests_executed_maxsmt_passed_tests_size == 0 else reduce(
+    avg_queries_to_solver_passed_tests_number = 0 if tests_executed_maxsmt_passed_size == 0 else reduce(
         lambda x, y: queries_to_solver_number(x) + queries_to_solver_number(y),
-        tests_executed_maxsmt_passed, 0) / tests_executed_maxsmt_passed_tests_size
+        tests_executed_maxsmt_passed, 0) / tests_executed_maxsmt_passed_size
 
-    avg_queries_to_solver_failed_tests_number = 0 if tests_executed_maxsmt_failed_tests_size == 0 else reduce(
+    avg_queries_to_solver_failed_tests_number = 0 if tests_executed_maxsmt_failed_size == 0 else reduce(
         lambda x, y: queries_to_solver_number(x) + queries_to_solver_number(y),
-        tests_executed_maxsmt_failed, 0) / tests_executed_maxsmt_failed_tests_size
+        tests_executed_maxsmt_failed, 0) / tests_executed_maxsmt_failed_size
 
     def is_zero(value):
         return abs(value) < 0.00000001
 
-    avg_time_per_solver_queries_percent_list = map(
-        lambda x: time_in_solver_queries_ms(x) / elapsed_time_ms(x) * 100 if not is_zero(
-            elapsed_time_ms(x)) else elapsed_time_ms(x),
-        tests_executed_maxsmt)
+    def avg_time_per_solver_queries_percent_list(bunch_of_tests):
+        return map(lambda x: time_in_solver_queries_ms(x) / elapsed_time_ms(x) * 100 if not is_zero(
+            elapsed_time_ms(x)) else elapsed_time_ms(x), bunch_of_tests)
+
     avg_time_per_solver_queries_percent = \
-        0 if tests_executed_maxsmt_size == 0 else reduce(operator.add, avg_time_per_solver_queries_percent_list,
+        0 if tests_executed_maxsmt_size == 0 else reduce(operator.add, avg_time_per_solver_queries_percent_list(
+            tests_executed_maxsmt),
                                                          0) / tests_executed_maxsmt_size
+    avg_time_per_solver_queries_passed_tests_percent = \
+        0 if tests_executed_maxsmt_passed_size == 0 else reduce(operator.add, avg_time_per_solver_queries_percent_list(
+            tests_executed_maxsmt_passed),
+                                                                0) / tests_executed_maxsmt_passed_size
+
+    avg_time_per_solver_queries_failed_tests_percent = \
+        0 if tests_executed_maxsmt_failed_size == 0 else reduce(operator.add, avg_time_per_solver_queries_percent_list(
+            tests_executed_maxsmt_failed),
+                                                                0) / tests_executed_maxsmt_failed_size
 
     failed_tests = list(filter(lambda x: not x["passed"], tests_executed_maxsmt))
     avg_failed_test_queries_to_solver_number = 0 if tests_executed_maxsmt_size == 0 else reduce(
@@ -117,6 +127,8 @@ def create_tests_queries_to_solver_statistics(tests):
     return TestsQueriesToSolverStatistics(avg_queries_to_solver_number, avg_queries_to_solver_passed_tests_number,
                                           avg_queries_to_solver_failed_tests_number,
                                           avg_time_per_solver_queries_percent,
+                                          avg_time_per_solver_queries_passed_tests_percent,
+                                          avg_time_per_solver_queries_failed_tests_percent,
                                           avg_failed_test_queries_to_solver_number)
 
 
@@ -180,11 +192,14 @@ class TestsSizeStatistics:
 class TestsQueriesToSolverStatistics:
     def __init__(self, avg_queries_to_solver_number, avg_queries_to_solver_passed_tests_number,
                  avg_queries_to_solver_failed_tests_number, avg_time_per_solver_queries_percent,
+                 avg_time_per_solver_queries_passed_tests_percent, avg_time_per_solver_queries_failed_tests_percent,
                  avg_failed_test_queries_to_solver_number):
         self.avg_queries_to_solver_number = avg_queries_to_solver_number
         self.avg_queries_to_solver_passed_tests_number = avg_queries_to_solver_passed_tests_number
         self.avg_queries_to_solver_failed_tests_number = avg_queries_to_solver_failed_tests_number
         self.avg_time_per_solver_queries_percent = avg_time_per_solver_queries_percent
+        self.avg_time_per_solver_queries_passed_tests_percent = avg_time_per_solver_queries_passed_tests_percent
+        self.avg_time_per_solver_queries_failed_tests_percent = avg_time_per_solver_queries_failed_tests_percent
         self.avg_failed_test_queries_to_solver_number = avg_failed_test_queries_to_solver_number
 
 
