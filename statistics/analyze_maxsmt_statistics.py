@@ -34,8 +34,9 @@ def analyze_maxsmt_statistics(stat_file, analyzed_stat_file_to_save):
 
 def create_tests_size_statistics(tests):
     tests_size = len(tests)
-    passed_tests_percent = len(list(filter(lambda x: x["passed"], tests))) / tests_size * 100
     tests_executed_maxsmt_size = len(list(filter(lambda x: x.get("maxSMTCallStatistics") is not None, tests)))
+    tests_executed_maxsmt_passed_tests_percent = 0 if tests_executed_maxsmt_size == 0 \
+        else len(list(filter(lambda x: x["passed"], tests))) / tests_executed_maxsmt_size * 100
     failed_or_ignored_tests_size = len(list(filter(lambda x: not x["passed"], tests)))
     failed_tests_wrong_soft_constr_sum_size = len(list(filter(lambda x: x["checkedSoftConstraintsSumIsWrong"], tests)))
     ignored_tests_size = len(list(filter(lambda x: x["ignoredTest"], tests)))
@@ -51,7 +52,8 @@ def create_tests_size_statistics(tests):
     failed_on_parsing_or_converting_expressions_exception_messages = get_unique_exception_messages(
         list(filter(lambda x: x["failedOnParsingOrConvertingExpressions"], tests)))
 
-    return TestsSizeStatistics(tests_size, passed_tests_percent, tests_executed_maxsmt_size,
+    return TestsSizeStatistics(tests_size, tests_executed_maxsmt_size,
+                               tests_executed_maxsmt_passed_tests_percent,
                                failed_or_ignored_tests_size, ignored_tests_size,
                                failed_on_parsing_or_converting_expressions_size,
                                failed_on_parsing_or_converting_expressions_exception_messages,
@@ -141,14 +143,16 @@ class MaxSMTContext:
 
 
 class TestsSizeStatistics:
-    def __init__(self, tests_size, passed_tests_percent, tests_executed_maxsmt_size, failed_tests_size,
+    def __init__(self, tests_size, tests_executed_maxsmt_size,
+                 tests_executed_maxsmt_passed_tests_percent,
+                 failed_tests_size,
                  ignored_tests_size,
                  failed_on_parsing_or_converting_expressions_size,
                  failed_on_parsing_or_converting_expressions_exception_messages,
                  failed_tests_wrong_soft_constr_sum_size):
         self.tests_size = tests_size
-        self.passed_tests_percent = passed_tests_percent
         self.tests_executed_maxsmt_size = tests_executed_maxsmt_size
+        self.tests_executed_maxsmt_passed_tests_percent = tests_executed_maxsmt_passed_tests_percent,
         self.failed_tests_size = failed_tests_size
         self.ignored_tests_size = ignored_tests_size
         self.failed_on_parsing_or_converting_expressions_size = failed_on_parsing_or_converting_expressions_size
